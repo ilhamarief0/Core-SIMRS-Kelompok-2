@@ -1,11 +1,18 @@
 <?php
 
 use App\Http\Controllers\Auth;
+use App\Http\Controllers\AuthController;
 use App\Http\Controllers\CekStatusAntrian;
 use App\Http\Controllers\Dashboard;
+use App\Http\Controllers\DashboardAdminDokter;
+use App\Http\Controllers\DashboardAdminUgd;
 use App\Http\Controllers\LandingPage;
 use App\Http\Controllers\RegisPasien;
+use App\Http\Middleware\isRoleAdminDokter;
+use App\Http\Middleware\isRoleAdminUgd;
+use App\Http\Middleware\isRoleAdminUtama;
 use Illuminate\Support\Facades\Route;
+
 
 
 
@@ -24,14 +31,38 @@ Route::controller(CekStatusAntrian::class)->group(function(){
 });
 
 
-Route::controller(Dashboard::class)->group(function(){
-    Route::get('/dashboard/admindokter', 'admindokterview')->name('admindokter.index');
-    Route::get('/dashboard/adminutama', 'adminutamaview')->name('adminutama.index');
-    Route::get('/dashboard/getadmin', 'CekStatusAntrian@index')->name('getadmin');
-    Route::get('/dashboard/adminugd', 'adminugdview')->name('adminugd.index');
+Route::middleware('guest')->group(function(){
+    Route::controller(AuthController::class)->group(function(){
+        Route::get('/login', 'loginview')->name('login');
+        // Route::post('/login-post', 'login')->name('login.post');
+    });
 });
 
-Route::controller(Auth::class)->group(function(){
-    Route::get('/login', 'loginview');
-    // Route::get('/registrasi', 'registrationview');
+
+Route::post('/login', [AuthController::class, 'login'])->name('login.post');
+Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
+// Route::post('/logout', 'AuthController@logout')->name('logout');
+
+
+Route::middleware(isRoleAdminUgd::class, 'auth')->group(function(){
+
+    Route::controller(DashboardAdminUgd::class)->group(function(){
+        Route::get('/dashboard/adminugd', 'index')->name('adminugd.index');
+    });
+});
+
+Route::middleware(isRoleAdminUtama::class, 'auth')->group(function(){
+
+    Route::controller(Dashboard::class)->group(function(){
+        Route::get('/dashboard/adminutama', 'adminutamaview')->name('adminutama.index');
+        Route::get('/dashboard/getadmin', 'CekStatusAntrian@index')->name('getadmin');
+        // Route::get('/dashboard/adminugd', 'adminugdview')->name('adminugd.index');
+    });
+});
+
+Route::middleware(isRoleAdminDokter::class, 'auth')->group(function(){
+    Route::controller(DashboardAdminDokter::class)->group(function(){
+        Route::get('/dashboard/admindokter', 'index')->name('admindokter.index');
+        Route::get('/dashboard/admindokter/rekammediklist', 'rekammediklist')->name('rekammedik.list');
+    });
 });

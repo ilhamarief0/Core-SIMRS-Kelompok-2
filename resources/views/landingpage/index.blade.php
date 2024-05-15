@@ -125,9 +125,16 @@ License: For each use you must have a valid license purchased only from above li
 								</div>
 								<!--end::Menu wrapper-->
 								<!--begin::Toolbar-->
-								<div class="flex-equal text-end ms-1">
-									<a href="{{ url('/login') }}" class="btn btn-success">Login</a>
-								</div>
+
+                                @if (Auth()->check())
+                                    <div class="flex-equal text-end ms-1">
+                                        <a href="{{ url('/dashboard/admindokter') }}" class="btn btn-success">Dashboard</a>
+                                    </div>
+                                @else
+                                    <div class="flex-equal text-end ms-1">
+                                        <a href="{{ url('/login') }}" class="btn btn-success">Login</a>
+                                    </div>
+                                @endif
 								<!--end::Toolbar-->
 							</div>
 							<!--end::Wrapper-->

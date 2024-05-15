@@ -54,7 +54,7 @@ License: For each use you must have a valid license purchased only from above li
                     <div class="d-flex flex-center py-10 py-lg-20 mt-lg-20">
                         <!--begin::Logo-->
                         <a href="#">
-                            <img alt="Logo" src="assets/media/logos/logosimrs.png" class="h-90px" />
+                            <img alt="Logo" src="assets/media/logos/logosimrsatas.png" class="h-50px" />
                         </a>
                         <!--end::Logo-->
                     </div>
@@ -98,8 +98,8 @@ License: For each use you must have a valid license purchased only from above li
                                     <!--end::Icon-->
                                     <!--begin::Label-->
                                     <div class="stepper-label">
-                                        <h3 class="stepper-title fs-2">Business Details</h3>
-                                        <div class="stepper-desc fw-normal">Setup your business details</div>
+                                        <h3 class="stepper-title fs-2">Pemilihan Poli</h3>
+                                        <div class="stepper-desc fw-normal">Silahkan Memilih Poli</div>
                                     </div>
                                     <!--end::Label-->
                                 </div>
@@ -121,8 +121,8 @@ License: For each use you must have a valid license purchased only from above li
                                     <!--end::Icon-->
                                     <!--begin::Label-->
                                     <div class="stepper-label">
-                                        <h3 class="stepper-title">Billing Details</h3>
-                                        <div class="stepper-desc fw-normal">Provide your payment info</div>
+                                        <h3 class="stepper-title">Ambil Nomor Antrian</h3>
+                                        <div class="stepper-desc fw-normal">Silahkan Mengambil Nomor Antrian</div>
                                     </div>
                                     <!--end::Label-->
                                 </div>
@@ -144,8 +144,8 @@ License: For each use you must have a valid license purchased only from above li
                                     <!--end::Icon-->
                                     <!--begin::Label-->
                                     <div class="stepper-label">
-                                        <h3 class="stepper-title">Completed</h3>
-                                        <div class="stepper-desc fw-normal">Your account is created</div>
+                                        <h3 class="stepper-title">Cetak Hasil Registrasi</h3>
+                                        <div class="stepper-desc fw-normal">Mencetak Hasil Registrasi</div>
                                     </div>
                                     <!--end::Label-->
                                 </div>
@@ -432,7 +432,7 @@ License: For each use you must have a valid license purchased only from above li
 												<!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="personal" checked="checked" id="kt_create_account_form_account_type_personal" />
+													<input type="radio" class="btn-check" name="account_type" value="poliumum" checked="checked" id="kt_create_account_form_account_type_personal" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10" for="kt_create_account_form_account_type_personal">
 														<i class="ki-duotone ki-badge fs-3x me-5">
 															<span class="path1"></span>
@@ -443,8 +443,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Personal Account</span>
-															<span class="text-muted fw-semibold fs-6">If you need more info, please check it out</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI UMUM</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -454,7 +453,7 @@ License: For each use you must have a valid license purchased only from above li
 												<!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="corporate" id="kt_create_account_form_account_type_corporate" />
+													<input type="radio" class="btn-check" name="account_type" value="poligigi" id="kt_create_account_form_account_type_corporate" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="kt_create_account_form_account_type_corporate">
 														<i class="ki-duotone ki-briefcase fs-3x me-5">
 															<span class="path1"></span>
@@ -462,8 +461,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Corporate Account</span>
-															<span class="text-muted fw-semibold fs-6">Create corporate account to mane users</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI GIGI</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -473,7 +471,7 @@ License: For each use you must have a valid license purchased only from above li
                                                 <!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="personal" checked="checked" id="kt_create_account_form_account_type_personal" />
+													<input type="radio" class="btn-check" name="account_type" value="polianak" checked="checked" id="kt_create_account_form_account_type_personal" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10" for="kt_create_account_form_account_type_personal">
 														<i class="ki-duotone ki-badge fs-3x me-5">
 															<span class="path1"></span>
@@ -484,8 +482,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Personal Account</span>
-															<span class="text-muted fw-semibold fs-6">If you need more info, please check it out</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI ANAK</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -495,7 +492,7 @@ License: For each use you must have a valid license purchased only from above li
 												<!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="corporate" id="kt_create_account_form_account_type_corporate" />
+													<input type="radio" class="btn-check" name="account_type" value="politht" id="kt_create_account_form_account_type_corporate" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="kt_create_account_form_account_type_corporate">
 														<i class="ki-duotone ki-briefcase fs-3x me-5">
 															<span class="path1"></span>
@@ -503,8 +500,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Corporate Account</span>
-															<span class="text-muted fw-semibold fs-6">Create corporate account to mane users</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI THT</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -514,7 +510,7 @@ License: For each use you must have a valid license purchased only from above li
                                                 <!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="personal" checked="checked" id="kt_create_account_form_account_type_personal" />
+													<input type="radio" class="btn-check" name="account_type" value="poligizi" checked="checked" id="kt_create_account_form_account_type_personal" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10" for="kt_create_account_form_account_type_personal">
 														<i class="ki-duotone ki-badge fs-3x me-5">
 															<span class="path1"></span>
@@ -525,8 +521,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Personal Account</span>
-															<span class="text-muted fw-semibold fs-6">If you need more info, please check it out</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI GIZI</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -536,7 +531,7 @@ License: For each use you must have a valid license purchased only from above li
 												<!--begin::Col-->
 												<div class="col-lg-6">
 													<!--begin::Option-->
-													<input type="radio" class="btn-check" name="account_type" value="corporate" id="kt_create_account_form_account_type_corporate" />
+													<input type="radio" class="btn-check" name="account_type" value="polisaraf" id="kt_create_account_form_account_type_corporate" />
 													<label class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center" for="kt_create_account_form_account_type_corporate">
 														<i class="ki-duotone ki-briefcase fs-3x me-5">
 															<span class="path1"></span>
@@ -544,8 +539,7 @@ License: For each use you must have a valid license purchased only from above li
 														</i>
 														<!--begin::Info-->
 														<span class="d-block fw-semibold text-start">
-															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">Corporate Account</span>
-															<span class="text-muted fw-semibold fs-6">Create corporate account to mane users</span>
+															<span class="text-gray-900 fw-bold d-block fs-4 mb-2">POLI SARAF</span>
 														</span>
 														<!--end::Info-->
 													</label>
@@ -577,7 +571,7 @@ License: For each use you must have a valid license purchased only from above li
 										<!--end::Heading-->
                                         <center>
                                         <!--begin::Col-->
-													<div class="col-xl-6">
+													<div class="col-xl-6 mb-5">
 														<div class="d-flex h-100 align-items-center">
 															<!--begin::Option-->
 															<div class="w-100 d-flex flex-column flex-center rounded-3 bg-light bg-opacity-75 py-15 px-10">
@@ -594,7 +588,7 @@ License: For each use you must have a valid license purchased only from above li
 																	<div class="text-center">
 
 																		<span class="fs-3x fw-bold text-primary" data-kt-plan-price-month="39" data-kt-plan-price-annual="399">#NA-214</span>
-																		<span class="fs-7 fw-semibold opacity-50">/
+																		<span class="fs-7 fw-semibold opacity-50">
 
 																	</div>
 																	<!--end::Price-->
@@ -623,7 +617,7 @@ License: For each use you must have a valid license purchased only from above li
 																	<div class="text-center">
 
 																		<span class="fs-3x fw-bold text-primary" data-kt-plan-price-month="39" data-kt-plan-price-annual="399">#NA-114</span>
-																		<span class="fs-7 fw-semibold opacity-50">/
+																		<span class="fs-7 fw-semibold opacity-50">
 
 																	</div>
 																	<!--end::Price-->
@@ -665,7 +659,7 @@ License: For each use you must have a valid license purchased only from above li
 														<!--begin::Wrapper-->
 														<div class="m-0">
 															<!--begin::Label-->
-															<div class="fw-bold fs-3 text-gray-800 mb-8">Invoice #34782</div>
+															<div class="fw-bold fs-3 text-gray-800 mb-8">Nomor Registrasi. - SIMRS-#34782</div>
 															<!--end::Label-->
 															<!--begin::Row-->
 															<div class="row g-5 mb-11">
@@ -822,68 +816,7 @@ License: For each use you must have a valid license purchased only from above li
 													<!--end::Invoice 2 content-->
 												</div>
 												<!--end::Content-->
-												<!--begin::Sidebar-->
-												<div class="m-0">
-													<!--begin::Invoice 2 sidebar-->
-													<div class="d-print-none border border-dashed border-gray-300 card-rounded h-lg-100 min-w-md-350px p-9 bg-lighten">
-														<!--begin::Labels-->
-														<div class="mb-8">
-															<span class="badge badge-light-success me-2">Approved</span>
-															<span class="badge badge-light-warning">Pending Payment</span>
-														</div>
-														<!--end::Labels-->
-														<!--begin::Title-->
-														<h6 class="mb-8 fw-bolder text-gray-600 text-hover-primary">PAYMENT DETAILS</h6>
-														<!--end::Title-->
-														<!--begin::Item-->
-														<div class="mb-6">
-															<div class="fw-semibold text-gray-600 fs-7">Paypal:</div>
-															<div class="fw-bold text-gray-800 fs-6">codelabpay@codelab.co</div>
-														</div>
-														<!--end::Item-->
-														<!--begin::Item-->
-														<div class="mb-6">
-															<div class="fw-semibold text-gray-600 fs-7">Account:</div>
-															<div class="fw-bold text-gray-800 fs-6">Nl24IBAN34553477847370033
-															<br />AMB NLANBZTC</div>
-														</div>
-														<!--end::Item-->
-														<!--begin::Item-->
-														<div class="mb-15">
-															<div class="fw-semibold text-gray-600 fs-7">Payment Term:</div>
-															<div class="fw-bold fs-6 text-gray-800 d-flex align-items-center">14 days
-															<span class="fs-7 text-danger d-flex align-items-center">
-															<span class="bullet bullet-dot bg-danger mx-2"></span>Due in 7 days</span></div>
-														</div>
-														<!--end::Item-->
-														<!--begin::Title-->
-														<h6 class="mb-8 fw-bolder text-gray-600 text-hover-primary">PROJECT OVERVIEW</h6>
-														<!--end::Title-->
-														<!--begin::Item-->
-														<div class="mb-6">
-															<div class="fw-semibold text-gray-600 fs-7">Project Name</div>
-															<div class="fw-bold fs-6 text-gray-800">SaaS App Quickstarter
-															<a href="#" class="link-primary ps-1">View Project</a></div>
-														</div>
-														<!--end::Item-->
-														<!--begin::Item-->
-														<div class="mb-6">
-															<div class="fw-semibold text-gray-600 fs-7">Completed By:</div>
-															<div class="fw-bold text-gray-800 fs-6">Mr. Dewonte Paul</div>
-														</div>
-														<!--end::Item-->
-														<!--begin::Item-->
-														<div class="m-0">
-															<div class="fw-semibold text-gray-600 fs-7">Time Spent:</div>
-															<div class="fw-bold fs-6 text-gray-800 d-flex align-items-center">230 Hours
-															<span class="fs-7 text-success d-flex align-items-center">
-															<span class="bullet bullet-dot bg-success mx-2"></span>35$/h Rate</span></div>
-														</div>
-														<!--end::Item-->
-													</div>
-													<!--end::Invoice 2 sidebar-->
-												</div>
-												<!--end::Sidebar-->
+
 											</div>
 											<!--end::Layout-->
 										</div>
